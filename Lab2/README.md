@@ -7,9 +7,9 @@ _Github Repository for ECNG 3006 Lab 2_
 
 ### Configure the projects
 
-* Q1. Create a new project based on the ESP8266 SDK example titled "hello_world".
-* Q2. Create a new project based on the RTOS SDK example titled "gpio". 
-* Q3. Create a new project based on the RTOS SDK example titled "i2c".
+* Q1. Create an example application with three tasks that are created in app_main.
+* Q2. Adjust Q1 to utilize round-robin scheduling or mutexes. 
+* Q3. Use the IDLE "hook" function to put the processor to sleep.
 
 ### Build and Flash
 
