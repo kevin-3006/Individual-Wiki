@@ -13,7 +13,7 @@ _Github Repository for ECNG 3006 Lab 1_
 
 ### Build and Flash
 
-Build the project and flash it to the board, then run PuTTY to view the serial outputs fromt the projects.
+Build the project and flash it to the board, then run PuTTY to view the serial outputs from the projects.
 
 
 ## Example Outputs
