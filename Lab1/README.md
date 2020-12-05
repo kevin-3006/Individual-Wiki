@@ -18,5 +18,5 @@ Build the project and flash it to the board, then run PuTTY to view the serial o
 
 ## Example Outputs
 
-* See README.md of indiviual projects for more details.
+* See README.md of subfolders for more details.
 * OR refer to lab1_qX_816013669.out files
