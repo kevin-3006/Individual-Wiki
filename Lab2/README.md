@@ -1,6 +1,6 @@
-# Lab 1: GPIO & I2C access from the ESP8266
+# Lab 2: FreeRTOS functions on ESP8266
 
-_Github Repository for ECNG 3006 Lab 1_
+_Github Repository for ECNG 3006 Lab 2_
 
 
 ## How to use example
@@ -18,5 +18,5 @@ Build the project and flash it to the board, then run PuTTY to view the serial o
 
 ## Example Outputs
 
-* See README.md of indiviual projects for more details.
-* OR refer to lab1_qX_816013669.out files
+* See README.md in subfolders for more details.
+* OR refer to lab2_qX_816013669.out files
