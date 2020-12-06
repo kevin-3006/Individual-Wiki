@@ -1,15 +1,15 @@
-# Lab 1: GPIO & I2C access from the ESP8266
+# Lab 2: FreeRTOS functions on ESP8266
 
-_Github Repository for ECNG 3006 Lab 1_
+_Github Repository for ECNG 3006 Lab 2_
 
 
 ## How to use example
 
 ### Configure the projects
 
-* Q1. Create a new project based on the ESP8266 SDK example titled "hello_world".
-* Q2. Create a new project based on the RTOS SDK example titled "gpio". 
-* Q3. Create a new project based on the RTOS SDK example titled "i2c".
+* Q1. Create an example application with three tasks that are created in app_main.
+* Q2. Adjust Q1 to utilize round-robin scheduling or mutexes. 
+* Q3. Use the IDLE "hook" function to put the processor to sleep.
 
 ### Build and Flash
 
@@ -18,5 +18,5 @@ Build the project and flash it to the board, then run PuTTY to view the serial o
 
 ## Example Outputs
 
-* See README.md of indiviual projects for more details.
-* OR refer to lab1_qX_816013669.out files
+* See README.md in subfolders for more details.
+* OR refer to lab2_qX_816013669.out files
