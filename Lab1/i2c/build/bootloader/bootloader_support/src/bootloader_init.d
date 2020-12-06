@@ -1,6 +1,6 @@
 src/bootloader_init.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_init.c \
- c:\msys64\home\kevin\esp\lab1\i2c\build\include\sdkconfig.h \
+ c:\msys64\home\kevin\esp\individual_wiki\lab1\i2c\build\include\sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -20,7 +20,7 @@ src/bootloader_init.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/rom_functions.h
 
-c:\msys64\home\kevin\esp\lab1\i2c\build\include\sdkconfig.h:
+c:\msys64\home\kevin\esp\individual_wiki\lab1\i2c\build\include\sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 

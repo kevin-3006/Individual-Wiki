@@ -2,7 +2,7 @@ port/esp8266/freertos_hooks.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/freertos_hooks.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -35,7 +35,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/F
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

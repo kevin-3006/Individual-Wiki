@@ -1,6 +1,6 @@
 src/esp_image_format.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/esp_image_format.c \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_image_format.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_partitions.h \
@@ -17,7 +17,7 @@ src/esp_image_format.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_random.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_sha.h
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_image_format.h:
 

@@ -2,7 +2,7 @@ src/crypto/crypto_mbedtls-bignum.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/crypto_mbedtls-bignum.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h \
@@ -43,7 +43,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 

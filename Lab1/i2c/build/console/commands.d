@@ -1,7 +1,7 @@
 commands.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/console/commands.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -15,7 +15,7 @@ commands.o: \
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

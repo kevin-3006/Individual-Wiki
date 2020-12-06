@@ -7,7 +7,7 @@ src/crypto/aes-omac1.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h \
@@ -37,7 +37,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 

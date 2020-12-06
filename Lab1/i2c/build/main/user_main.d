@@ -1,7 +1,8 @@
-user_main.o: C:/msys64/home/Kevin/esp/lab1/i2c/main/user_main.c \
+user_main.o: \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/main/user_main.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -46,7 +47,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/F
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -125,4 +126,4 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h:
-/home/Kevin/esp/lab1/i2c/main/./user_main.c:
+/home/Kevin/esp/Individual_Wiki/Lab1/i2c/main/./user_main.c:

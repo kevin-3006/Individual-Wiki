@@ -2,7 +2,7 @@ log.o: C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/log.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- c:\msys64\home\kevin\esp\lab1\i2c\build\include\sdkconfig.h \
+ c:\msys64\home\kevin\esp\individual_wiki\lab1\i2c\build\include\sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/hal.h \
@@ -19,7 +19,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-c:\msys64\home\kevin\esp\lab1\i2c\build\include\sdkconfig.h:
+c:\msys64\home\kevin\esp\individual_wiki\lab1\i2c\build\include\sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 

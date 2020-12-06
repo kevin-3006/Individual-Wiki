@@ -1,6 +1,6 @@
 src/bootloader_utility.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_utility.c \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_data_types.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_utility.h \
@@ -25,7 +25,7 @@ src/bootloader_utility.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h:
 

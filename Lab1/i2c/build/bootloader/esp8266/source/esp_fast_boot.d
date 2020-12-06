@@ -1,7 +1,7 @@
 source/esp_fast_boot.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/source/esp_fast_boot.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- c:\msys64\home\kevin\esp\lab1\i2c\build\include\sdkconfig.h \
+ c:\msys64\home\kevin\esp\individual_wiki\lab1\i2c\build\include\sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -16,7 +16,7 @@ source/esp_fast_boot.o: \
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-c:\msys64\home\kevin\esp\lab1\i2c\build\include\sdkconfig.h:
+c:\msys64\home\kevin\esp\individual_wiki\lab1\i2c\build\include\sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

@@ -1,6 +1,6 @@
 source/startup.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/source/startup.c \
- C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
@@ -82,7 +82,7 @@ source/startup.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/esp_newlib.h
 
-C:/msys64/home/Kevin/esp/lab1/i2c/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
 

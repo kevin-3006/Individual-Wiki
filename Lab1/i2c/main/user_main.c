@@ -101,8 +101,8 @@ static esp_err_t i2c_example_master_init()
  */
 static esp_err_t i2c_example_master_ads1115_reset()
 {
-    uint8_t first_byte = 0x00;      // first data byte to send
-    uint8_t second_byte = 0x06;     // second data byte to send
+    uint8_t first_byte = 0x00;      // First data byte to send
+    uint8_t second_byte = 0x06;     // Second data byte to send
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
     i2c_master_start(cmd);
     i2c_master_write_byte(cmd, ADS1115_GENERAL_CALL_ADDR, ACK_CHECK_EN);
@@ -207,9 +207,9 @@ static esp_err_t i2c_example_master_ads1115_init(i2c_port_t i2c_num)
     uint8_t config_lsb_data;
     vTaskDelay(100 / portTICK_RATE_MS);
     i2c_example_master_init();
-    i2c_example_master_ads1115_reset();     // reset ADS1115
-    config_msb_data = 0xC4;    // configure ADS1115
-    config_lsb_data = 0x83;    // configure ADS1115
+    i2c_example_master_ads1115_reset();     // Reset ADS1115
+    config_msb_data = 0xC2;    // Configure ADS1115 (1100 0010) 
+    config_lsb_data = 0x83;    // Configure ADS1115 (1000 0011)
     ESP_ERROR_CHECK(i2c_example_master_ads1115_write(i2c_num, CONFIG_REG, &config_msb_data, &config_lsb_data));
     return ESP_OK;
 }
@@ -218,6 +218,10 @@ static void i2c_task_example(void *arg)
 {
     uint8_t data_byte_1;
     uint8_t data_byte_2;
+    uint16_t hex_output;
+    float voltage;
+    float smallest_div = 1.25e-4;      // Smallest change in voltage that the ADS1115 would recogonise for a FSR = +/- 4.096V
+    int count = 0;                     // Counter for number of seconds
     int ret;
     i2c_example_master_ads1115_init(I2C_EXAMPLE_MASTER_NUM);
 
@@ -225,16 +229,22 @@ static void i2c_task_example(void *arg)
 
         ret = i2c_example_master_ads1115_read(I2C_EXAMPLE_MASTER_NUM, CONVERSION_REG, &data_byte_1, &data_byte_2);
 
+        // Checks to see if device connected properly and returned the appropriate value in the conversion register
         if (ret == ESP_OK) {
-            ESP_LOGI(TAG, "*******************\n");
-            ESP_LOGI(TAG, "ADS1115\n");
-            ESP_LOGI(TAG, "Slave Address: 0x%02x\n", ADS1115_SLAVE_ADDR);
-            ESP_LOGI(TAG, "ADC_data: %d %d\n", (uint8_t)(data_byte_1), (uint8_t)(data_byte_2));
+            ESP_LOGI(TAG, "\n\n*******************");
+            ESP_LOGI(TAG, "ADS1115");
+            ESP_LOGI(TAG, "Slave Address: 0x%02x\n", ADS1115_SLAVE_ADDR);       // Displays the slave address of the connected ADS1115
+            ESP_LOGI(TAG, "No. of Seconds Elapsed: %d\n", count);               // Displays the number of seconds elapsed since the start of the program
+            hex_output = ((data_byte_1 << 8) | (data_byte_2 & 0xFF));           // Concatenate the two 8 bit variables into one 16 bit variable
+            voltage = (float)(((int16_t)(hex_output) * smallest_div));          // Converts hex value from Conversion Reg into a voltage value
+            ESP_LOGI(TAG, "ADS1115 Conversion Register: 0x%04x", hex_output);   // Displays value stored in Conversion Reg
+            ESP_LOGI(TAG, "Voltage Level: %d.%d%d V\n", (uint16_t)(voltage), (uint16_t)(voltage * 10) % 10, (uint16_t)(voltage * 100) % 10);    // Display calculated voltage value to 2 dp
         } else {
             ESP_LOGE(TAG, "No ack, ADS1115 not connected...skip...\n");
         }
 
-        vTaskDelay(1000 / portTICK_RATE_MS);
+        count++;
+        vTaskDelay(1000 / portTICK_PERIOD_MS);        // Interval (1 second) at which the ADS1115 will read and report the analog signal connected to pin A0
     }
 
     i2c_driver_delete(I2C_EXAMPLE_MASTER_NUM);
@@ -242,6 +252,6 @@ static void i2c_task_example(void *arg)
 
 void app_main(void)
 {
-    //start i2c task
+    // Start i2c task
     xTaskCreate(i2c_task_example, "i2c_task_example", 2048, NULL, 10, NULL);
 }
