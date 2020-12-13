@@ -1,4 +1,4 @@
-# _Example Application_
+# _Question 2b Example Application_
 
 _This test code shows how to use Priority Inheritance to manage a mutex._
 

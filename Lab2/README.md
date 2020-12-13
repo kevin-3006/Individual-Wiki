@@ -8,8 +8,8 @@ _Github Repository for ECNG 3006 Lab 2_
 ### Configure the projects
 
 * Q1. Create an example application with three tasks that are created in app_main.
-* Q2. * Part (a) Adjust Q1 to utilize round-robin scheduling with same priority levels. 
-      * Part (b) Adjust Q1 to utilize Priority Inheritance with varying priority levels.
+* Q2a. Adjust Q1 to utilize round-robin scheduling with same priority levels. 
+* Q2b. Adjust Q1 to utilize Priority Inheritance with varying priority levels.
 * Q3. Use the IDLE "hook" function to put the processor to sleep.
 
 ### Build and Flash

@@ -1,4 +1,4 @@
-# _Example Application_
+# _Question 3 Example Application_
 
 _This test code shows how to save power during idle time._
 
