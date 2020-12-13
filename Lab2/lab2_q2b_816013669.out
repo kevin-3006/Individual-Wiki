@@ -1,0 +1,50 @@
+
+ ets Jan  8 2013,rst cause:1, boot mode:(3,7)
+
+load 0x40100000, len 7136, room 16
+tail 0
+chksum 0x9c
+load 0x3ffe8408, len 24, room 8
+tail 0
+chksum 0x25
+load 0x3ffe8420, len 3336, room 8
+tail 0
+chksum 0x3d
+I (43) boot: ESP-IDF v3.4-dev-363-gdda5062c-dirty 2nd stage bootloader
+I (43) boot: compile time 14:06:49
+I (45) boot: SPI Speed      : 40MHz
+I (51) boot: SPI Mode       : DOUT
+I (57) boot: SPI Flash Size : 1MB
+I (63) boot: Partition Table:
+I (69) boot: ## Label            Usage          Type ST Offset   Length
+I (80) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (92) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (103) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (115) boot: End of partition table
+I (121) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1460c ( 8                                                                                       3468) map
+I (171) esp_image: segment 1: paddr=0x00024624 vaddr=0x4022461c size=0x05788 ( 2                                                                                       2408) map
+I (182) esp_image: segment 2: paddr=0x00029db4 vaddr=0x3ffe8000 size=0x003dc (                                                                                          988) load
+I (182) esp_image: segment 3: paddr=0x0002a198 vaddr=0x40100000 size=0x00080 (                                                                                          128) load
+I (196) esp_image: segment 4: paddr=0x0002a220 vaddr=0x40100080 size=0x044bc ( 1                                                                                       7596) load
+I (217) boot: Loaded app from partition at offset 0x10000
+I (247) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldow                                                                                       n: 0| Intr:0
+I (252) main: GPIO[2], GPIO Level: 0
+
+I (1251) main: GPIO[2], GPIO Level: 1
+
+I (2251) main: GPIO[2], GPIO Level: 0
+
+I (3741) main: GPIO[2], GPIO Level: 1
+
+I (4741) main: GPIO[2], GPIO Level: 1
+
+I (5741) main: GPIO[2], GPIO Level: 0
+
+I (6741) main: GPIO[2], GPIO Level: 1
+
+I (8231) main: GPIO[2], GPIO Level: 0
+
+I (9721) main: GPIO[2], GPIO Level: 1
+
+I (10722) main: GPIO[2], GPIO Level: 1
+
