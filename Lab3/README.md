@@ -7,8 +7,8 @@ _Github Repository for ECNG 3006 Lab 3_
 
 ### Configure the projects
 
-* Q1. Perform unit testing for any function.
-* Q2. Perform integration testing between the unit tested function and a driver function. 
+* Q1. Perform unit testing for hello world example.
+* Q2. Perform integration testing between the tested units. 
 * Q3. Perform verification testing on the system.
 
 ### Build and Flash
