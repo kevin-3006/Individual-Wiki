@@ -8133,7 +8133,7 @@ Discarded input sections
  .text.esp_timer_stop
                 0x00000000       0x48 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(esp_timer.o)
  .text.esp_timer_delete
-                0x00000000       0x79 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(esp_timer.o)
+                0x00000000       0x7d C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(esp_timer.o)
  .rodata.__func__$4230
                 0x00000000       0x11 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(esp_timer.o)
  .rodata.__func__$4223
@@ -18569,7 +18569,7 @@ END GROUP
 
 .iram0.text     0x40100080     0x44bb
                 0x40100080                _iram_text_start = ABSOLUTE (.)
- *(.iram1 .iram1.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .text)
+ *(.iram1 .iram1.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .text)
  .iram1.0.literal
                 0x40100080       0x1c C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(task_wdt.o)
  .iram1.1.literal
@@ -19080,7 +19080,7 @@ END GROUP
  *libcore.a:(.bss .bss.* COMMON)
  .bss.s_cpu_speed_up_nest
                 0x4010453c        0x2 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libcore.a(user_interface.o)
- *libfreertos.a:stream_buffer.*(.bss .bss.* COMMON)
+ *libfreertos.a:event_groups.*(.bss .bss.* COMMON)
  *libfreertos.a:timers.*(.bss .bss.* COMMON)
  *fill*         0x4010453e        0x2 
  .bss.xLastTime$4351
@@ -19097,9 +19097,6 @@ END GROUP
                 0x40104554       0x14 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/freertos\libfreertos.a(timers.o)
  .bss.xActiveTimerList1
                 0x40104568       0x14 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/freertos\libfreertos.a(timers.o)
- *libfreertos.a:list.*(.bss .bss.* COMMON)
- *libfreertos.a:queue.*(.bss .bss.* COMMON)
- *libfreertos.a:impure.*(.bss .bss.* COMMON)
  *libfreertos.a:freertos_hooks.*(.bss .bss.* COMMON)
  *libfreertos.a:tasks.*(.bss .bss.* COMMON)
  .bss.uxSchedulerSuspended
@@ -19145,7 +19142,10 @@ END GROUP
  .bss.pxCurrentTCB
                 0x40104744        0x4 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/freertos\libfreertos.a(tasks.o)
                 0x40104744                pxCurrentTCB
- *libfreertos.a:event_groups.*(.bss .bss.* COMMON)
+ *libfreertos.a:list.*(.bss .bss.* COMMON)
+ *libfreertos.a:stream_buffer.*(.bss .bss.* COMMON)
+ *libfreertos.a:impure.*(.bss .bss.* COMMON)
+ *libfreertos.a:queue.*(.bss .bss.* COMMON)
  *liblwip.a:(.bss .bss.* COMMON)
                 0x40104748                . = ALIGN (0x4)
                 0x40104748                _iram_bss_end = ABSOLUTE (.)
@@ -19243,7 +19243,7 @@ END GROUP
 .dram0.bss      0x3ffe83e0      0xee8
                 0x3ffe83e0                . = ALIGN (0x8)
                 0x3ffe83e0                _bss_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:stream_buffer.* *libfreertos.a:timers.* *libfreertos.a:list.* *libfreertos.a:queue.* *libfreertos.a:impure.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:event_groups.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:stream_buffer.* *libfreertos.a:timers.* *libfreertos.a:list.* *libfreertos.a:queue.* *libfreertos.a:impure.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:event_groups.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:stream_buffer.* *libfreertos.a:timers.* *libfreertos.a:list.* *libfreertos.a:queue.* *libfreertos.a:impure.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:event_groups.* *libcore.a) COMMON)
+ *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:event_groups.* *libfreertos.a:timers.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:list.* *libfreertos.a:stream_buffer.* *libfreertos.a:impure.* *libfreertos.a:queue.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:event_groups.* *libfreertos.a:timers.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:list.* *libfreertos.a:stream_buffer.* *libfreertos.a:impure.* *libfreertos.a:queue.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:event_groups.* *libfreertos.a:timers.* *libfreertos.a:freertos_hooks.* *libfreertos.a:tasks.* *libfreertos.a:list.* *libfreertos.a:stream_buffer.* *libfreertos.a:impure.* *libfreertos.a:queue.* *libcore.a) COMMON)
  .bss.s_nmi_wd_state
                 0x3ffe83e0        0x4 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(task_wdt.o)
  .bss.s_reset_reason
@@ -19513,7 +19513,7 @@ END GROUP
 .flash.text     0x40210010    0x15702
                 0x40210010                _stext = .
                 0x40210010                _text_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .literal.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .text EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2-fde.* *libgcc.a:unwind-dw2.* *libphy.a *libpp.a) .text.* .wifi0iram .wifi0iram.*)
+ *(EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .literal EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .literal.* EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .text EXCLUDE_FILE(*libspi_flash.a:spi_flash_raw.* *libgcc.a:unwind-dw2.* *libgcc.a:unwind-dw2-fde.* *libphy.a *libpp.a) .text.* .wifi0iram .wifi0iram.*)
  .literal.user_init_entry
                 0x40210010       0x1c C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(startup.o)
                                  0x50 (size before relaxing)
@@ -20873,10 +20873,10 @@ END GROUP
  .literal.pthread_cond_init
                 0x40210998        0x0 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/pthread\libpthread.a(pthread_cond_var.o)
                                   0x8 (size before relaxing)
- .literal       0x40210998       0x28 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2-fde.o)
-                                 0x7c (size before relaxing)
- .literal       0x402109c0       0x60 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2.o)
+ .literal       0x40210998       0x60 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2.o)
                                 0x104 (size before relaxing)
+ .literal       0x402109f8       0x28 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2-fde.o)
+                                 0x7c (size before relaxing)
  .text.user_init_entry
                 0x40210a20       0x7d C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(startup.o)
                                  0xa1 (size before relaxing)
@@ -23340,47 +23340,47 @@ END GROUP
  *fill*         0x4021ecbc        0x0 
  *fill*         0x4021ecbc        0x0 
  *fill*         0x4021ecbc        0x0 
- *libgcc.a:unwind-dw2-fde.*(.literal .literal.* .text .text.*)
- .text          0x4021ecbc      0xe71 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2-fde.o)
-                                0xe79 (size before relaxing)
-                0x4021f8ac                __register_frame_info_bases
-                0x4021f8cc                __register_frame_info
-                0x4021f8f0                __register_frame
-                0x4021f92c                __register_frame_info_table_bases
-                0x4021f948                __register_frame_info_table
-                0x4021f964                __register_frame_table
-                0x4021f998                __deregister_frame_info_bases
-                0x4021fa28                __deregister_frame_info
-                0x4021fa38                __deregister_frame
-                0x4021fa54                _Unwind_Find_FDE
- *fill*         0x4021fb2d        0x0 
  *libgcc.a:unwind-dw2.*(.literal .literal.* .text .text.*)
- *fill*         0x4021fb2d        0x3 
- .text          0x4021fb30     0x1e6b C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2.o)
+ .text          0x4021ecbc     0x1e6b C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2.o)
                                0x1e87 (size before relaxing)
-                0x402214dc                _Unwind_GetGR
-                0x4022151c                _Unwind_GetCFA
-                0x40221524                _Unwind_SetGR
-                0x40221574                _Unwind_GetIP
-                0x4022157c                _Unwind_GetIPInfo
-                0x4022158c                _Unwind_SetIP
-                0x40221594                _Unwind_GetLanguageSpecificData
-                0x4022159c                _Unwind_GetRegionStart
-                0x402215a4                _Unwind_FindEnclosingFunction
-                0x402215c0                _Unwind_GetDataRelBase
-                0x402215c8                _Unwind_GetTextRelBase
-                0x402215d0                __frame_state_for
-                0x40221684                _Unwind_RaiseException
-                0x40221770                _Unwind_ForcedUnwind
-                0x402217f8                _Unwind_Resume
-                0x40221884                _Unwind_Resume_or_Rethrow
-                0x40221910                _Unwind_DeleteException
-                0x40221928                _Unwind_Backtrace
- *fill*         0x4022199b        0x0 
+                0x40220668                _Unwind_GetGR
+                0x402206a8                _Unwind_GetCFA
+                0x402206b0                _Unwind_SetGR
+                0x40220700                _Unwind_GetIP
+                0x40220708                _Unwind_GetIPInfo
+                0x40220718                _Unwind_SetIP
+                0x40220720                _Unwind_GetLanguageSpecificData
+                0x40220728                _Unwind_GetRegionStart
+                0x40220730                _Unwind_FindEnclosingFunction
+                0x4022074c                _Unwind_GetDataRelBase
+                0x40220754                _Unwind_GetTextRelBase
+                0x4022075c                __frame_state_for
+                0x40220810                _Unwind_RaiseException
+                0x402208fc                _Unwind_ForcedUnwind
+                0x40220984                _Unwind_Resume
+                0x40220a10                _Unwind_Resume_or_Rethrow
+                0x40220a9c                _Unwind_DeleteException
+                0x40220ab4                _Unwind_Backtrace
+ *fill*         0x40220b27        0x0 
+ *libgcc.a:unwind-dw2-fde.*(.literal .literal.* .text .text.*)
+ *fill*         0x40220b27        0x1 
+ .text          0x40220b28      0xe71 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2-fde.o)
+                                0xe79 (size before relaxing)
+                0x40221718                __register_frame_info_bases
+                0x40221738                __register_frame_info
+                0x4022175c                __register_frame
+                0x40221798                __register_frame_info_table_bases
+                0x402217b4                __register_frame_info_table
+                0x402217d0                __register_frame_table
+                0x40221804                __deregister_frame_info_bases
+                0x40221894                __deregister_frame_info
+                0x402218a4                __deregister_frame
+                0x402218c0                _Unwind_Find_FDE
+ *fill*         0x40221999        0x0 
  *(.irom0.literal .irom0.text)
  *(.irom.literal .irom.text .irom.text.literal)
  *(.text2 .text2.* .literal2 .literal2.*)
- *fill*         0x4022199b        0x1 
+ *fill*         0x40221999        0x3 
  .text2.45      0x4022199c      0x289 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libphy.a(phy_chip_v5_ana_romfunc.o)
                                 0x291 (size before relaxing)
                 0x402219ac                rom_set_channel_freq
@@ -24927,7 +24927,7 @@ OUTPUT(C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/i2c.elf elf32-xte
  .debug_abbrev  0x000199d6      0x2f0 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/pthread\libpthread.a(pthread_cond_var.o)
  .debug_abbrev  0x00019cc6      0x1a3 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(_moddi3.o)
 
-.debug_loc      0x00000000    0x35f4e
+.debug_loc      0x00000000    0x35f34
  .debug_loc     0x00000000      0x12c C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/app_update\libapp_update.a(esp_app_desc.o)
  .debug_loc     0x0000012c      0x209 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(startup.o)
  .debug_loc     0x00000335      0x62b C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(system_api.o)
@@ -25019,20 +25019,20 @@ OUTPUT(C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/i2c.elf elf32-xte
  .debug_loc     0x000272e3     0x20f9 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(uart.o)
  .debug_loc     0x000293dc      0x3bd C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(backtrace.o)
  .debug_loc     0x00029799      0x7b8 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(esp_sleep.o)
- .debug_loc     0x00029f51      0x69a C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(esp_timer.o)
- .debug_loc     0x0002a5eb      0x708 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(ets_printf.o)
- .debug_loc     0x0002acf3      0xd36 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(gpio.o)
- .debug_loc     0x0002ba29     0x4bd4 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2.o)
- .debug_loc     0x000305fd     0x1da5 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2-fde.o)
- .debug_loc     0x000323a2      0x135 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp_common\libesp_common.a(esp_err_to_name.o)
- .debug_loc     0x000324d7     0x216d C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp_ringbuf\libesp_ringbuf.a(ringbuf.o)
- .debug_loc     0x00034644      0x779 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/newlib\libnewlib.a(time.o)
- .debug_loc     0x00034dbd       0x32 c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-atexit.o)
- .debug_loc     0x00034def       0x64 c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-sysgettod.o)
- .debug_loc     0x00034e53      0x14e c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-__atexit.o)
- .debug_loc     0x00034fa1      0x26c c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-__call_atexit.o)
- .debug_loc     0x0003520d      0x484 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/pthread\libpthread.a(pthread_cond_var.o)
- .debug_loc     0x00035691      0x8bd C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(_moddi3.o)
+ .debug_loc     0x00029f51      0x680 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(esp_timer.o)
+ .debug_loc     0x0002a5d1      0x708 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(ets_printf.o)
+ .debug_loc     0x0002acd9      0xd36 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp8266\libesp8266.a(gpio.o)
+ .debug_loc     0x0002ba0f     0x4bd4 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2.o)
+ .debug_loc     0x000305e3     0x1da5 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(unwind-dw2-fde.o)
+ .debug_loc     0x00032388      0x135 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp_common\libesp_common.a(esp_err_to_name.o)
+ .debug_loc     0x000324bd     0x216d C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/esp_ringbuf\libesp_ringbuf.a(ringbuf.o)
+ .debug_loc     0x0003462a      0x779 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/newlib\libnewlib.a(time.o)
+ .debug_loc     0x00034da3       0x32 c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-atexit.o)
+ .debug_loc     0x00034dd5       0x64 c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-sysgettod.o)
+ .debug_loc     0x00034e39      0x14e c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-__atexit.o)
+ .debug_loc     0x00034f87      0x26c c:/users/kevin/.espressif/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib\libc_nano.a(lib_a-__call_atexit.o)
+ .debug_loc     0x000351f3      0x484 C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/i2c/build/pthread\libpthread.a(pthread_cond_var.o)
+ .debug_loc     0x00035677      0x8bd C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/lib\libgcc.a(_moddi3.o)
 
 .debug_aranges  0x00000000     0x2938
  .debug_aranges

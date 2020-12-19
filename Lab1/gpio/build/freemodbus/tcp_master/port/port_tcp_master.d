@@ -9,7 +9,7 @@ tcp_master/port/port_tcp_master.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
- C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -112,7 +112,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
-C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 

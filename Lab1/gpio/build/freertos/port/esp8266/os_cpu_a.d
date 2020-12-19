@@ -16,7 +16,7 @@ port/esp8266/os_cpu_a.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/coreasm.h:
@@ -51,7 +51,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/inclu
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h:
 /home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/os_cpu_a.S:

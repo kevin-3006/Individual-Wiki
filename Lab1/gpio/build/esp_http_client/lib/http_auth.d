@@ -1,7 +1,7 @@
 lib/http_auth.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_http_client/lib/http_auth.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/esp_netif.h \
- C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h \
@@ -90,7 +90,7 @@ lib/http_auth.o: \
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/esp_netif.h:
 
-C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h:
 

@@ -2,7 +2,7 @@ port/portevent_m.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/port/portevent_m.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mb_m.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h \
- C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -52,7 +52,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/m
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h:
 
-C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h:
 

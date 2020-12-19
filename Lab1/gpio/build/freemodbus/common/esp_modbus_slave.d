@@ -1,7 +1,7 @@
 common/esp_modbus_slave.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/common/esp_modbus_slave.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
- C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/common/mbc_slave.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -53,7 +53,7 @@ common/esp_modbus_slave.o: \
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 
-C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freemodbus/common/mbc_slave.h:
 

@@ -1,7 +1,7 @@
 src/select.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/src/select.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/select.h \
- C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -39,7 +39,7 @@ src/select.o: \
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/select.h:
 
-C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h:
 

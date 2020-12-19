@@ -2,7 +2,7 @@ esp-mqtt/lib/mqtt_msg.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/mqtt_msg.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h \
- C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform_esp32_idf.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
@@ -86,7 +86,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/m
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h:
 
-C:/msys64/home/Kevin/esp/lab1/gpio/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/Lab1/gpio/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform.h:
 
