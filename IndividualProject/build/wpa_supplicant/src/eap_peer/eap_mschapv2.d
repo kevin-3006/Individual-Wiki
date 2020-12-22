@@ -1,7 +1,7 @@
 src/eap_peer/eap_mschapv2.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/rsn_supp/wpa.h \
- C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -47,7 +47,7 @@ src/eap_peer/eap_mschapv2.o: \
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/rsn_supp/wpa.h:
 
-C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

@@ -13,7 +13,7 @@ src/packet.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/core-isa.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/core-matmap.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/esp8266/gdbstub_target_config.h \
- C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h
+ C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/private_include/esp_gdbstub_common.h:
 
@@ -41,5 +41,5 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/conf
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/esp8266/gdbstub_target_config.h:
 
-C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h:
 /home/Kevin/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/src/packet.c:

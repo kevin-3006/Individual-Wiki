@@ -1,1 +1,1 @@
-8648ee8 gpio v3.4-dev-363-gdda5062c-dirty
+57e2959-dirty gpio v3.4-dev-363-gdda5062c-dirty

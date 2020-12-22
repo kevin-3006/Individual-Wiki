@@ -1,8 +1,8 @@
 user_main.o: \
- C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/main/user_main.c \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/main/user_main.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -33,20 +33,27 @@ user_main.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h \
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/i2c.h \
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
- C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_timer.h \
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sleep.h \
+ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
@@ -108,6 +115,8 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/s
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
 
+C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
+
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h:
@@ -116,6 +125,12 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eag
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h:
 
+C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/i2c.h:
+
+C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
+
+C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h:
+
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h:
@@ -123,4 +138,10 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_interna
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
-/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/main/./user_main.c:
+
+C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_timer.h:
+
+C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sleep.h:
+
+C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h:
+/home/Kevin/esp/Individual_Wiki/IndividualProject/main/./user_main.c:

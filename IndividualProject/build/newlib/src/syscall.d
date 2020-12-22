@@ -1,6 +1,6 @@
 src/syscall.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/src/syscall.c \
- C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -42,7 +42,7 @@ src/syscall.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/termios.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/poll.h
 
-C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 

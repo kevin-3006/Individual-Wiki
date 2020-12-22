@@ -2,7 +2,7 @@ src/crypto/sha256-prf.o: \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/sha256-prf.c \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h \
- C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h \
+ C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -28,7 +28,7 @@ C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/in
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/supplicant_opt.h:
 
-C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/gpio_pulse/build/include/sdkconfig.h:
+C:/msys64/home/Kevin/esp/Individual_Wiki/IndividualProject/build/include/sdkconfig.h:
 
 C:/msys64/home/Kevin/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 
